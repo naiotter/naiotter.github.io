@@ -1,0 +1,105 @@
+body {
+  background-color: pink;
+  background-image: url(https://i.imgur.com/HRSFIiK.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: georgia;
+  font-size: 16px;
+  color: rgb(32, 32, 56);
+  max-width: 500px;
+  min-width: 300px;
+  margin: auto;
+  padding: auto;
+  
+}
+
+.box {
+    width: 100%;
+    background-color: rgba(255, 192, 203, 0.5);
+    margin: 50px 0;
+    padding: 0px 10px;
+    color: rgb(32, 32, 56);
+    border: 2px rgba(127, 122, 140, 0.5);
+    border-style: double;
+    border-radius: 6px;
+    position: center;
+}
+
+fieldset {
+    border-style: none;
+}
+
+h1, p {
+  text-align: center;
+}
+
+ul {
+  list-style-image: url('https://web.archive.org/web/20091026094202/http://geocities.com/thairott/dot.gif');
+}
+
+form {
+ width: 50vw;
+ max-width: 500px;
+ min-width: 300px;
+ margin: auto;
+ padding: auto;
+ }
+
+label {
+  display: block;
+  margin: 0.6rem 0;
+  font-size: 16px;
+  height: 20px
+}
+
+input {
+  width: 100%;
+  font-family: courier;
+  font-size: 12px;
+  margin-left: -4px;
+  margin-top: 0px;
+  height: 26px;
+}
+
+textarea {
+  width: 100%;
+  margin-top: 5px;
+  height: 14%;
+}
+
+select {
+ font-family: courier;
+ color: grey;
+ width: 100%;
+ margin-top: 5px;
+ height: 26px;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+recommend {
+    font-size: 19px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: navy;
+  border-color: white;
+  min-width: 300px;
+  color: white;
+  font-family: georgia;
+}
+footer {
+  font-size: 14px;
+  text-align: center;
+  margin: 10px;
+}
