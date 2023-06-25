@@ -10,7 +10,7 @@ body {
   max-width: 500px;
   min-width: 300px;
   margin: auto;
-  padding: auto;
+  padding: 20px;
   
 }
 
@@ -24,6 +24,10 @@ body {
     border-style: double;
     border-radius: 6px;
     position: center;
+}
+
+.question span {
+  background-color: pink;
 }
 
 fieldset {
@@ -57,8 +61,8 @@ input {
   width: 100%;
   font-family: courier;
   font-size: 12px;
-  margin-left: -4px;
-  margin-top: 0px;
+  margin-left: 0;
+  margin-top: 6px;
   height: 26px;
 }
 
@@ -72,7 +76,7 @@ select {
  font-family: courier;
  color: grey;
  width: 100%;
- margin-top: 5px;
+ margin: 0px;
  height: 26px;
 }
 
@@ -92,7 +96,7 @@ input[type="submit"] {
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: navy;
+  background-color: rgb(32, 32, 56);
   border-color: white;
   min-width: 300px;
   color: white;
