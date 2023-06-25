@@ -1,6 +1,6 @@
 body {
   background-color: pink;
-  background-image: url(https://i.imgur.com/HRSFIiK.jpg);
+  background-image: url('https://i.imgur.com/HRSFIiK.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
