@@ -26,6 +26,18 @@ body {
     position: center;
 }
 
+a:link {
+  color: rgba(127, 122, 140, 0.5);
+}
+
+a:visited {
+  color: rgb(32, 32, 56);
+}
+
+a:hover{
+  color: white;
+}
+
 .question span {
   background-color: pink;
 }
