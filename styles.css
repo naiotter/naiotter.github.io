@@ -39,11 +39,7 @@ a:hover{
 }
 
 .question span {
-  background-color: pink;
-}
-
-fieldset {
-    border-style: none;
+  background-color: rgba(255, 192, 203, 0.5);
 }
 
 h1, p {
