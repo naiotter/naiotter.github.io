@@ -4,13 +4,13 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: Arial;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 16px;
   color: rgb(32, 32, 56);
   max-width: 500px;
   min-width: 300px;
   margin: auto;
-  padding: 40px 0 0 0;
+  padding: 20px;
 }
 
 .box{
@@ -21,21 +21,28 @@ body {
     color: rgb(32, 32, 56);
     border: 2px rgba(127, 122, 140, 0.5);
     border-style: double;
-    border-radius: 8px;
+    border-radius: 6px;
     position: center;
 }
-/* SURVEY-FORM */
-h1 {
-text-align: center;
-font-family: courier new;
+
+ul {
+  list-style-image: url('https://web.archive.org/web/20091026094202/http://geocities.com/thairott/dot.gif');
 }
 
-p {
- text-align: center;
+/* SURVEY-FORM */
+
+h1, p {
+text-align: center;
 }
 
 .question {
   font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 16px;
   margin: 8px 0;
+}
+
+textarea {
+  width: 100%;
+  height: 14%;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
