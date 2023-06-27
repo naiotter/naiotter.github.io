@@ -51,11 +51,10 @@ ul {
 }
 
 form {
- width: 50vw;
+ width: 80%;
  max-width: 500px;
  min-width: 300px;
  margin: auto;
- padding: auto;
  }
 
 .question {
@@ -66,9 +65,9 @@ form {
 
 label {
   display: block;
-  margin: 0.6rem 0;
-  font-size: 16px;
-  height: 20px
+  margin: 4px 20px;
+  font-size: 14px;
+  height: 20px;
 }
 
 input {
