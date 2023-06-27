@@ -85,8 +85,8 @@ input {
 
 textarea {
   width: 100%;
-  margin-top: 5px;
   height: 14%;
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 select {
@@ -118,7 +118,6 @@ input[type="submit"] {
   border-color: white;
   min-width: 300px;
   color: white;
-  font-family: georgia;
 }
 footer {
   font-size: 14px;
