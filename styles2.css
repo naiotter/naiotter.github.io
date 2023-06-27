@@ -34,10 +34,8 @@ p {
  text-align: center;
 }
 
-form {
- width: 450px;
- max-width: 500px;
- min-width: 300px;
- margin: auto;
- padding: auto;
+.question {
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 16px;
+  margin: 8px 0;
 }
