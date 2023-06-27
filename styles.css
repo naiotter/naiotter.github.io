@@ -100,10 +100,6 @@ select {
   vertical-align: middle;
 }
 
-recommend {
-    font-size: 19px;
-}
-
 input[type="submit"] {
   display: block;
   width: 40%;
